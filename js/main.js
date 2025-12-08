@@ -3,5 +3,7 @@ let navList = document.querySelector(".navigation");
 
 hamburgerButton.addEventListener("click", (e) => {
     e.preventDefault();
-   navList.classList.toggle("show")
+    setTimeout(() => {
+        navList.classList.toggle("show");
+    }, 100);
 })

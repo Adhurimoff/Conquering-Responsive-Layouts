@@ -107,7 +107,9 @@ p {
 .nav-link:hover {
 color: #a59678;
 font-size: 1.4rem;
+transition: .4s;
 }
+
 
 
 .main {
@@ -116,6 +118,10 @@ font-size: 1.4rem;
     color: #fff;
     text-align: center;
 
+}
+
+.main-col {
+    margin-bottom: 5em;
 }
 
 .main-title {
@@ -131,7 +137,16 @@ font-size: 1.4rem;
 }
 .main-button {
     background-color: #7F5AF0;
-    padding: .5em 1.3em;
+    padding: .9em 1.3em;
+    border-radius: 20px;
+    
+}
+
+.main-button:hover {
+  font-size: 1.6rem;
+  transition: .5s;
+  cursor: pointer;
+  background-color: #a59678;
 }
 
 
@@ -155,8 +170,8 @@ font-size: 1.4rem;
 
 
 .article {
-    padding: 3em 0 10em 0;
-    background-color: black;
+    padding: 5em 0 10em 0;
+    background-color: rgba(2, 8, 23, 1)  ;
     color: #fff;
     text-align: center;
 }
@@ -175,9 +190,10 @@ font-size: 1.4rem;
 }
 
 .article-item:hover {
-    text-decoration: underline;
-    border: 1px solid black;
     cursor: pointer;
+    transition: .3s;
+    color: #a59678;
+    font-weight: 800;
     
 }
 
@@ -206,6 +222,13 @@ font-size: 1.4rem;
 .background-image {
     margin: 0 auto;
     width: 60%;
+}
+
+.copyright-bar {
+    background-color: rgba(2, 8, 23, 1)  ;
+    padding: 2em 0;
+    color: #ffef;
+    text-align: center;
 }
 
 @media(min-width: 1200px) {
@@ -279,7 +302,7 @@ font-size: 1.4rem;
 
 
     .main {
-        padding: 5em 0 25em 0;
+        padding: 5em 0 21em 0;
     }
 
     .content-row {

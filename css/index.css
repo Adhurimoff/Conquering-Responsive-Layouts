@@ -60,7 +60,7 @@ p {
 
 .hamburger-menu:hover {
     opacity: .6;
-    transition: .4s;
+    transition: .9s;
     color: #a59678;
 }
 
@@ -106,6 +106,7 @@ p {
 .nav-link:hover {
 color: #a59678;
 font-size: 1.4rem;
+transition: .4s;
 }
 
 
@@ -132,6 +133,9 @@ font-size: 1.4rem;
     color: #a59678;
 }
 
+.article .col {
+    margin-bottom: 3em;
+}
 .main-button {
     text-decoration: none;
     color: #fff;
@@ -201,7 +205,7 @@ font-size: 1.4rem;
 }
 
 .footer-title {
-    color: #a59678;
+    color: #a59678
 }
 
 .footer-list {
@@ -309,5 +313,13 @@ font-size: 1.4rem;
     }
 
   
-    
+    .footer {
+        padding: 5em 0;
+    }
+
+    .footer-list {
+        line-height: 3;
+    }
 }
+
+
