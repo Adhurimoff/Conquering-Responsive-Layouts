@@ -1,5 +1,6 @@
 # Conquering-Responsive-Layouts
 
+<<<<<<< HEAD
 This project was created as part of the Conquering Responsive Layouts course.
 The goal of the project is to build a modern, fully responsive multi-page website using only HTML, CSS and a small amount of JavaScript.
 
@@ -17,3 +18,5 @@ HTML5
 CSS3
 Javascript
 Git & Github for version control
+=======
+This page is a course website inspired by Kevin Powell's "Conquering Responsive Layouts" course.
